@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: guestbook.GuestbookControllerUnitTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.316 s <<< FAILURE! -- in guestbook.GuestbookControllerUnitTests
+guestbook.GuestbookControllerUnitTests.populatesModelForGuestbook -- Time elapsed: 1.271 s <<< ERROR!
+java.lang.NoSuchMethodError: 'long guestbook.GuestbookService.getNumberOfPosts()'
+	at guestbook.GuestbookController.guestBook(GuestbookController.java:89)
+	at guestbook.GuestbookControllerUnitTests.populatesModelForGuestbook(GuestbookControllerUnitTests.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
